@@ -1,5 +1,11 @@
 *{
     box-sizing: border-box;
-    margin: 0px;    
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;     
 }
 
+footer{
+    background-color: rgb(29, 30, 37);
+    color: white;
+    
+}
