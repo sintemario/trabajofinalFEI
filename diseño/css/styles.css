@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Be Vietnam Pro', sans-serif;     
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: 2px red;     
 }
+
+
 
 footer{
     background-color: rgb(29, 30, 37);
@@ -11,7 +14,12 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     }
+
+footer div img{
+
+}
 
 footer p{
     margin-bottom: 30px;
@@ -21,11 +29,20 @@ footer p{
     display: flex;
     align-items: center;
     color: #8C8C94;
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+}
+
+footer img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px;
 }
    
 form{
     display: flex;
-    margin-top: 50px;
+    padding: 25px;
 }    
 
 input{
@@ -33,16 +50,32 @@ input{
     border-radius: 50px;
     padding-left: 15px;
     width: 200px;
+    height: 44px;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-style: none;
 }
-ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-  
+ul{ 
+    text-align: left;
+    list-style: none;   
+    column-count: 2;
+    height: 10%;
+    padding: 50px;
+    padding-bottom: 20px;
 }
 
+ul li{
+    padding: 5px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    width: 100%;
+
+}
 
 button{    
     width: 134px;
@@ -58,6 +91,8 @@ button{
     font-weight: 500;
     font-size: 13px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .naranja{
@@ -76,6 +111,7 @@ button{
     margin-top: 65px;
     margin-left: 30px ;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .blanco{
@@ -88,5 +124,258 @@ button{
     font-style: bold;
     font-weight: 700;
     font-size: 38px;
+    text-align: center;
+    color: black;
+
+    padding: 5%;
+    margin-bottom: 10%;
+    
 }
+
+section .aboutUs{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    letter-spacing: -0.01em;
+
+    color: #B3B2B7;
+    
+    text-align: center;
+
+    padding: 10%;
+}
+
+.bring{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+#subtittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    margin-top: 30px;
+    order: -1;
+}
+
+.stats img{
+    border: none;
+    width: 80%;
+}
+
+
+
+.listado{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+
+}
+
+.listado div{
+    margin-bottom: 50px;
+}
+
+.num{
+    position: absolute;
+    width: 69px;
+    height: 43px;
+    background-color: rgb(242, 95, 58);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    
+    border-radius: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+}
+.subtittlelis{
+    
+    height: 43px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+    letter-spacing: -0.015em;
+    
+    color: #323851;
+
+    background-color: rgb(255, 239, 234);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;  
+}
+
+.caracteristica{
+    
+   
+    
+    top: 47.5px;
+    margin-top: 15px;
+    padding: 10px;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    letter-spacing: -0.01em;
+
+    color: #B3B2B7;
+    
+    text-align: left;
+
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+} 
+
+section article{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    padding: 25px;
+    max-width: 370px;
+    margin-bottom: 15px;
+
+    background-color: rgb(249, 249, 249);
+}
+
+section article img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: -15%;
+    
+}
+
+section article p{
+    
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.01em;
+text-align: center;
+padding-top: 15px
+;
+}
+
+header{
+    /* display: flex; */
+    position: relative;
+ flex-direction: ;
+}
+
+header img{
+    height: 24px;
+    width: 145px;
+    margin-top: 20px;
+}
+
+
+
+header nav ul{
+    
+    display: none;
+    text-align: left;
+    list-style: none;
+    column-count: 2;
+    height: 10%;
+    padding: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  
+  input:checked  ~ ul{
+    display:block;
+  }
+  header nav input {
+    display: none;
+  }
+ header nav img{
+     width: auto;
+     height: auto;
+     position: absolute;
+     top: 0px;
+     right: 15px;
+     
+ } 
+
+ /*/////// mediaaa ///////*/
+
+ @media (min-width: 700px) {
+
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img{
+    order: -1;
+}
+
+form{
+    order: 5;
+}
+
+.naranja{
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.naranja p{
+    width: 30%;
+    text-align: left;
+}
+
+section .cards{
+    display: flex;
+    flex-direction: row;
+}
+
+ }
+
+  
 
